@@ -11,8 +11,7 @@ import { NoPageFoundComponent } from './pages/no-page-found/no-page-found.compon
 @NgModule({
   declarations: [
     AppComponent,
-    NoPageFoundComponent,
-    
+    NoPageFoundComponent
   ],
   imports: [
     BrowserModule,
