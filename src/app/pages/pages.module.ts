@@ -9,6 +9,7 @@ import { ProgressComponent } from './progress/progress.component';
 import { GraficaFirstComponent } from './grafica-first/grafica-first.component';
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 
 
@@ -17,7 +18,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     DashboardComponent,
     ProgressComponent,
     GraficaFirstComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ],
   imports: [
     CommonModule,
@@ -29,7 +31,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   exports: [
     ProgressComponent,
     GraficaFirstComponent,
-    PagesComponent
+    PagesComponent,
+    AccountSettingsComponent
   ]
 })
 export class PagesModule { }
